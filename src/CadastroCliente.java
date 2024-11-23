@@ -18,7 +18,7 @@ public class CadastroCliente {
 
         Cliente clienteRemovido = (Cliente) listaClientes.removeInicio();
         System.out.println("Elemento removido da Lista Ligada");
-        System.out.println(c);
+        System.out.println(clienteRemovido);
 
         listaClientes.imprimeLista();
         System.out.println("Liberando toda a lista");
