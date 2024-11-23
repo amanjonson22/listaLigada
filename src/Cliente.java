@@ -12,7 +12,7 @@ public class Cliente {
     }
 
     public String toString() {
-        return  "Código: "+codigo+" Razão Social: "+razaoSocial;
+        return  "Codigo: "+codigo+" Razao Social: "+razaoSocial;
     }
 
     public void atualizacaoRazaoSocial(String r) {
