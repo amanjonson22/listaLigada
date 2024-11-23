@@ -33,11 +33,11 @@ public class Lista {
         while((posicao > 0) && (auxiliar != null)) {
             if (posicao == 1) {
                 return auxiliar.getElemento();
-                posicao--;
-                auxiliar = auxiliar.getProximo();
             }
-            return null
+            posicao--;
+            auxiliar = auxiliar.getProximo();
         }
+        return null;
     }
 
     public void liberaLista() {
